@@ -1,0 +1,221 @@
+(footprint "FUSE_3557-2"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -6.985 -4.445 0)
+		(layer "F.SilkS")
+		(uuid "c3c91d02-8a50-4fcc-9eee-58f74fb20a74")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "FUSE_3557-2"
+		(at -3.175 4.445 0)
+		(layer "F.Fab")
+		(uuid "1d683b3b-6fd9-46f6-b384-2ce8808dc75b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "090209df-a51a-46c4-be36-9be25ec3d529")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5ab18046-3ba5-4cf3-ae95-3709f8916fe7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -9.905 -3.365)
+		(end -9.905 3.365)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8ece634f-5ae6-4910-8776-176d8e6ba0f7")
+	)
+	(fp_line
+		(start -9.905 3.365)
+		(end 9.905 3.365)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d2c6d1e2-a925-4c9b-938d-d8422a8eb9dd")
+	)
+	(fp_line
+		(start 9.905 -3.365)
+		(end -9.905 -3.365)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "15ef26a0-481b-4523-bccc-cdf65072fdc4")
+	)
+	(fp_line
+		(start 9.905 3.365)
+		(end 9.905 -3.365)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4d6dc087-332d-40c0-b9f0-c0a1b5f352ae")
+	)
+	(fp_line
+		(start -10.155 -3.615)
+		(end 10.155 -3.615)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "439e6f76-f924-4be3-ab33-ce19b24ba9f7")
+	)
+	(fp_line
+		(start -10.155 3.615)
+		(end -10.155 -3.615)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "68867d4e-5154-44d0-a9c3-582b5b54fe29")
+	)
+	(fp_line
+		(start 10.155 -3.615)
+		(end 10.155 3.615)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a7299546-100b-4948-9473-79c11c736fdd")
+	)
+	(fp_line
+		(start 10.155 3.615)
+		(end -10.155 3.615)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "166e4713-219e-4ff5-8bae-de15023fe5c7")
+	)
+	(fp_line
+		(start -9.905 -3.365)
+		(end -9.905 3.365)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "953ef921-3ada-401c-8a0a-d220cd25db4d")
+	)
+	(fp_line
+		(start -9.905 3.365)
+		(end 9.905 3.365)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "67943bf4-916e-4d90-9b1b-7091f84a2052")
+	)
+	(fp_line
+		(start 9.905 -3.365)
+		(end -9.905 -3.365)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1ca8d32c-ff42-4be7-ba0d-1fb8a339f2b6")
+	)
+	(fp_line
+		(start 9.905 3.365)
+		(end 9.905 -3.365)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e2514332-046a-4f18-ae8d-d157d4ec213b")
+	)
+	(pad "1_1" thru_hole circle
+		(at -6.735 -1.7)
+		(size 2.4 2.4)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "3173e84f-688d-4894-b0eb-c746fbdf70e1")
+	)
+	(pad "1_2" thru_hole circle
+		(at -6.735 1.7)
+		(size 2.4 2.4)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "92ea0ebe-0c79-43c6-8d03-8f0e36322e09")
+	)
+	(pad "2_1" thru_hole circle
+		(at 6.735 -1.7)
+		(size 2.4 2.4)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "d1819ae3-f035-42a0-8bd2-f2c2e2dfac5d")
+	)
+	(pad "2_2" thru_hole circle
+		(at 6.735 1.7)
+		(size 2.4 2.4)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "918b2ded-d216-4ca2-b0a1-79ccb4bf29de")
+	)
+	(embedded_fonts no)
+	(model "/home/dtnb620/Documents/esc_driver/Library.pretty/3557_2/3557-2.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
